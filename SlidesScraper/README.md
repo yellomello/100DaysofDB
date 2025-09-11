@@ -1,6 +1,8 @@
 # CMU Slides Auto Downloader
+I was bored of visiting the webpage each time to download the lecture slides as they were being uploaded weekly. So I wrote a script that will automatically download the lecture slides into my folder as they're uploaded. 
 
-This project is a simple Python utility that automatically downloads lecture slides (PDFs) from the **CMU 15-445 Database Systems** course (or any webpage with linked PDFs). It checks for new files and saves them locally, so you don’t have to click each link manually.
+
+This project is a simple Python utility that automatically downloads lecture slides (PDFs) from the **CMU 15-445 Database Systems** course (or any webpage with linked PDFs). It checks for new files and saves them locally, so you don’t have to click each link manually. 
 
 ---
 
@@ -26,32 +28,35 @@ A Windows batch file:
 - Install required Python modules:
   ```bash
   pip install requests beautifulsoup4
-🚀 How to Use
-1. Run Once Manually
-bash
-Copy code
+
+## 🚀 How to Use
+### 1. Run Once Manually
+```bash
 python app.py
+```
+
 This will download all PDFs into your specified folder:
 
-mathematica
-Copy code
 C:\Users\hanse\Desktop\cleanup\Sep 2025\CMUDB\Lecture 1\File Download Script
-2. Run Silently on Windows
+
+### 2. Run Silently on Windows
 Edit app.bat to point to your script:
 
 bat
-Copy code
+```bash
 pythonw.exe "C:\path\to\app.py"
+```
+
 Test it by double-clicking app.bat.
 
 If everything works, PDFs should download without opening a console window.
 
-3. Auto-Run at Startup
+### 3. Auto-Run at Startup (Optional)
 Press Win + R, type:
 
-makefile
-Copy code
+```bash
 shell:startup
+```
 and hit Enter.
 
 Copy app.bat into the Startup folder.
