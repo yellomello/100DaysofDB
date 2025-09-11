@@ -1,4 +1,4 @@
-# CMU Slides Auto Downloader
+# Slides Auto Downloader
 I was bored of visiting the webpage each time to download the lecture slides as they were being uploaded weekly. So I wrote a script that automatically downloads the lecture slides into my folder as they're uploaded. 
 
 ## Description
