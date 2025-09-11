@@ -1,7 +1,7 @@
 # CMU Slides Auto Downloader
-I was bored of visiting the webpage each time to download the lecture slides as they were being uploaded weekly. So I wrote a script that will automatically download the lecture slides into my folder as they're uploaded. 
+I was bored of visiting the webpage each time to download the lecture slides as they were being uploaded weekly. So I wrote a script that automatically downloads the lecture slides into my folder as they're uploaded. 
 
-
+## Description
 This project is a simple Python utility that automatically downloads lecture slides (PDFs) from the **CMU 15-445 Database Systems** course (or any webpage with linked PDFs). It checks for new files and saves them locally, so you don’t have to click each link manually. 
 
 ---
